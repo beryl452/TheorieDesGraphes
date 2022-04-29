@@ -28,7 +28,7 @@ sont réliés par deux(02) arcs.
 jusqu'à l'ordre du graphe. Le nombre d'arc qui sépare les deux (02) sommets est déterminé
 par l' exposant à laquelle les deux sommets seront connectés. 
   
-  Exemple :
+    Exemple :
  
     Input: graphe1.txt
         Premier chiffre: L'ordre du graphe.
@@ -75,8 +75,9 @@ connecté à "visité".
 Aussi, si en parcourant, le tableau on a un sommet à "non visité", donc qui n'est pas
 connecté aux sommets qui le précède alors on incrémente le nombre de composant connexe de un(01) 
 Enfin, si le nombre de composant connexe est égal à un (01), alors on conclut que le 
-graphe est connexe, et dans la cas contraire, il ne l'est pas et à n composant connexe.  
-    Exemple :
+graphe est connexe, et dans la cas contraire, il ne l'est pas et à n composant connexe. 
+
+        Exemple :
         Input: graphe1.txt
   
         Output:
@@ -100,7 +101,8 @@ graphe est connexe, et dans la cas contraire, il ne l'est pas et à n composant 
       |         2                                                               |
       |         Votre graphe est CONNEXE et donc possede 01 composante connexe  |
       ___________________________________________________________________________      
-    3.)     Chaine:
+    
+3.)     Chaine:
 Il s'agit de trouver tout les chemins (chaine), possible entre
 un sommet source(PreSom) 's' et un sommet de destination 'd'(SecoSom). 
 Pour se faire, nous utliserons la technique du parcours en profondeur ou DFS (Depth 
@@ -119,3 +121,31 @@ Si le sommet de destination (SecoSommet) est atteint, on affiche le contenu de c
  ['À la découverte des graphes']
     -) Print all paths from a given source to a destination[Un article sur le site 
  geeksforgeeks]
+
+            Exemple :
+                Input: graphe2.txt
+                Output:
+               _________________________________________________________________________
+                |        Votre matrice d'adjacence est la suivante:                     |
+                |    0  1  0  1                                                         |            
+                |    1  0  1  0                                                         |    
+                |    0  1  0  1                                                         |    
+                |    1  0  1  0                                                         |    
+                |                                                                       |    
+                |    _-_-_-_-_---------_-_-_-_-_-_                                      |            
+                |    _-_-_-_-    MENU    -_-_-_-_                                       |    
+                |    _-_-_-_-_---------_-_-_-_-_-_                                      |    
+                |                                                                       |    
+                |    1: Connexion de deux sommets                                       |        
+                |    2: Composantes connexes                                            |    
+                |    3: Chaine                                                          |            
+                |    3                                                                  |            
+                |                                                                       |    
+                |    Entrer le premier sommet de votre chaine                           |        
+                |    1                                                                  |            
+                |    Entrer le second sommet de votre chaine                            |        
+                |    3                                                                  |        
+                |    Les chaines qui relient vos deux sommets sont:                     |        
+                |    1 0 3                                                              |            
+                |    1 2 3                                                              |    
+               _|_______________________________________________________________________|_  
