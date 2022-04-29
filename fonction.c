@@ -1,5 +1,5 @@
 
-// BINOME: HOUESSOU Béryl   - Poète Descartes
+// Author: HOUESSOU Béryl
 
 int connection(int PreSomm, int SecoSomm, int ordre_du, int mat[][9], int *nbre_boucl)
 {
