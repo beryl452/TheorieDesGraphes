@@ -1,10 +1,9 @@
-// cd .\TheorieDesGraphes_TP
+// cd .\TheorieDesGraphes
 // gcc main.c -o main
 // ./main
 
-// Veuillez lire notre ReadMe (Le fichier '.html')
-// Et consulter les graphes test (GrapheTest) 
-// BINOME: HOUESSOU Béryl   - Poète Descartes
+
+// Author: HOUESSOU Béryl
 
 #include <stdio.h>
 #include <stdlib.h>

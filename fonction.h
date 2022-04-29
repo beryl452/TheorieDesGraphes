@@ -1,5 +1,5 @@
 
-// BINOME: HOUESSOU Béryl   - Poète Descartes
+// Author: HOUESSOU Béryl
 
 #ifndef DEF_FONCTION
 #define DEF_FONCTION
